@@ -91,6 +91,7 @@ class RegistrationForm extends Component {
   };
 
   render() {
+    console.log("remove this log");
     const { user, errors, regiError } = this.state;
     return (
       <React.Fragment>
